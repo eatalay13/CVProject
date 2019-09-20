@@ -8,4 +8,10 @@
     <Folder Include="Interfaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CVP.Data\CVP.Data.csproj" />
+    <ProjectReference Include="..\CVP.Domain\CVP.Domain.csproj" />
+    <ProjectReference Include="..\CVP.Infrastructure\CVP.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

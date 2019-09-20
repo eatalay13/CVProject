@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CVP.Business\CVP.Business.csproj" />
-    <ProjectReference Include="..\CVP.Data\CVP.Data.csproj" />
     <ProjectReference Include="..\CVP.Domain\CVP.Domain.csproj" />
   </ItemGroup>
 

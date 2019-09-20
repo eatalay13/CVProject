@@ -26,42 +26,59 @@ namespace CVP.Data.Repository
 
         public void Delete(TModel entity)
         {
-            throw new NotImplementedException();
+            if (entity is null)
+                throw new ArgumentNullException(nameof(entity));
+            _dbSet.Remove(entity);
         }
 
         public void Delete(IEnumerable<TModel> entities)
         {
-            throw new NotImplementedException();
+            if (entities is null)
+                throw new ArgumentNullException(nameof(entities));
+
+            _dbSet.RemoveRange(entities);
         }
 
         public TModel GetById(object id)
         {
-            throw new NotImplementedException();
+            return _dbSet.Find(id);
         }
 
         public IEnumerator<TModel> GetList()
         {
-            throw new NotImplementedException();
+            return (IEnumerator<TModel>)_dbSet.ToList();
         }
 
         public void Insert(TModel entity)
         {
-            throw new NotImplementedException();
+            if (entity is null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Add(entity);
         }
 
         public void Insert(IEnumerable<TModel> entities)
         {
-            throw new NotImplementedException();
+            if (entities is null)
+                throw new ArgumentNullException(nameof(entities));
+
+            _dbSet.AddRange(entities);
         }
 
         public void Update(TModel entity)
         {
-            throw new NotImplementedException();
+            if (entity is null)
+                throw new ArgumentNullException(nameof(entity));
+
+            _dbSet.Update(entity);
         }
 
         public void Update(IEnumerable<TModel> entities)
         {
-            throw new NotImplementedException();
+            if (entities == null)
+                throw new ArgumentNullException(nameof(entities));
+
+            _dbSet.UpdateRange(entities);
         }
     }
 }
