@@ -1,4 +1,5 @@
-﻿using CVP.Data.Repository;
+﻿using CVP.Data.Models;
+using CVP.Data.Repository;
 using CVP.Data.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,10 @@ namespace CVP.Data.Uow
     public class UnitOfWork : IUnitOfWork
     {
         private readonly CVProjectContext _dbContext;
+        private readonly Lazy<IRepository<Skill>> _skill;
+
+        public IRepository<Skill> Skill => _skill.Value;
+
         public UnitOfWork(CVProjectContext context)
         {
             _dbContext = context;
@@ -17,6 +22,8 @@ namespace CVP.Data.Uow
             {
                 throw new ArgumentNullException("Db Context Can Not Be Null");
             }
+
+            _skill = CreateRepo<Skill>();
         }
 
         public void Dispose()

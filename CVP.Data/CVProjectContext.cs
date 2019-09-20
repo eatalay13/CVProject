@@ -1,4 +1,5 @@
-﻿using CVP.Domain.Models.Auth;
+﻿using CVP.Data.Models;
+using CVP.Domain.Models.Auth;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -54,6 +55,9 @@ namespace CVP.Data
                 k.LoginProvider,
                 k.Name
             });
+
+            builder.Entity<Skill>()
+                .ToTable("Skill");
         }
 
 
@@ -63,5 +67,7 @@ namespace CVP.Data
         public virtual DbSet<UserLogin> UserLogin { get; set; }
         public virtual DbSet<UserRole> UserRole { get; set; }
         public virtual DbSet<UserToken> UserToken { get; set; }
+
+        public virtual DbSet<Skill> Skill { get; set; }
     }
 }

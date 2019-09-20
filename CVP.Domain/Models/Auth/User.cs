@@ -9,5 +9,6 @@ namespace CVP.Domain.Models.Auth
     {
         public string Name { get; set; }
         public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }

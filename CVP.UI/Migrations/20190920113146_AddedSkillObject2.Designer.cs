@@ -4,14 +4,16 @@ using CVP.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CVP.UI.Migrations
 {
     [DbContext(typeof(CVProjectContext))]
-    partial class CVProjectContextModelSnapshot : ModelSnapshot
+    [Migration("20190920113146_AddedSkillObject2")]
+    partial class AddedSkillObject2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
