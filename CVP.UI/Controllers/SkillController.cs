@@ -17,11 +17,19 @@ namespace CVP.UI.Controllers
         {
             this._skillBussines = skillBussines;
         }
-        public ActionResult<AddSkillResponse> AddSkill(AddSkillRequest request)
+
+        [HttpPost]
+        public ActionResult<AddSkillResponse> AddSkill([FromBody]AddSkillRequest request)
         {
             var response = _skillBussines.AddSkill(request);
 
             return response;
+        }
+
+        [HttpGet]
+        public ActionResult<SkillListResponse> SkillList()
+        {
+            return _skillBussines.GetSkillList();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CVP.Data.Repository.Interfaces
 
         #region Methods
 
-        IEnumerator<TModel> GetList();
+        List<TModel> GetList();
 
         TModel GetById(object id);
 

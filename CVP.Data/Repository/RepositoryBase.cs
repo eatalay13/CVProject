@@ -44,9 +44,9 @@ namespace CVP.Data.Repository
             return _dbSet.Find(id);
         }
 
-        public IEnumerator<TModel> GetList()
+        public List<TModel> GetList()
         {
-            return (IEnumerator<TModel>)_dbSet.ToList();
+            return _dbSet.ToList();
         }
 
         public void Insert(TModel entity)

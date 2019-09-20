@@ -1,8 +1,10 @@
-﻿using CVP.Business.Interfaces;
+﻿using System.Collections.Generic;
+using CVP.Business.Interfaces;
 using CVP.Data.Repository.Interfaces;
 using CVP.Domain.Contracts.Skill.Requests;
 using CVP.Domain.Contracts.Skill.Responses;
 using CVP.Domain.Dtos.Skill;
+using CVP.Domain.Models;
 
 namespace CVP.Business
 {
@@ -23,6 +25,16 @@ namespace CVP.Business
             });
 
             return new AddSkillResponse();
+        }
+
+        public SkillListResponse GetSkillList()
+        {
+            var response = new SkillListResponse
+            {
+                Skills = _skillRepository.GetSkillList()
+            };
+
+            return response;
         }
     }
 }
