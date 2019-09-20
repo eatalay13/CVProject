@@ -27,9 +27,9 @@ namespace CVP.Business
             return new AddSkillResponse();
         }
 
-        public SkillListResponse GetSkillList()
+        public ListSkillResponse GetSkillList()
         {
-            var response = new SkillListResponse
+            var response = new ListSkillResponse
             {
                 Skills = _skillRepository.GetSkillList()
             };

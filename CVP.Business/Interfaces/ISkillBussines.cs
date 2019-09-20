@@ -10,6 +10,6 @@ namespace CVP.Business.Interfaces
     public interface ISkillBussines
     {
         AddSkillResponse AddSkill(AddSkillRequest request);
-        SkillListResponse GetSkillList();
+        ListSkillResponse GetSkillList();
     }
 }

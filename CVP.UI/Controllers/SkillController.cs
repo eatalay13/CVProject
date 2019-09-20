@@ -27,7 +27,7 @@ namespace CVP.UI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<SkillListResponse> SkillList()
+        public ActionResult<ListSkillResponse> SkillList()
         {
             return _skillBussines.GetSkillList();
         }

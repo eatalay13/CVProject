@@ -44,11 +44,6 @@ namespace CVP.Data.Repository
             return _dbSet.Find(id);
         }
 
-        public List<TModel> GetList()
-        {
-            return _dbSet.ToList();
-        }
-
         public void Insert(TModel entity)
         {
             if (entity is null)

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using CVP.Data.Models;
 using CVP.Data.Repository.Interfaces;
 using CVP.Data.Uow;
@@ -25,9 +26,14 @@ namespace CVP.Data.Repository
             return _uow.SaveChanges();
         }
 
-        public List<Skill> GetSkillList()
+        public List<ListSkillDto> GetSkillList()
         {
-            return _uow.Skill.GetList();
+            return _uow.Skill.Table.Select(s => new ListSkillDto
+            {
+                Id = s.Id,
+                Name = s.Name,
+                Score = s.Score
+            }).ToList();
         }
     }
 }

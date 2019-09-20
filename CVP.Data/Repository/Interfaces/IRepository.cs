@@ -10,8 +10,6 @@ namespace CVP.Data.Repository.Interfaces
 
         #region Methods
 
-        List<TModel> GetList();
-
         TModel GetById(object id);
 
         void Insert(TModel entity);
