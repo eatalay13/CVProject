@@ -1,4 +1,9 @@
-﻿using CVP.Data;
+﻿using CVP.Business;
+using CVP.Business.Interfaces;
+using CVP.Data;
+using CVP.Data.Repository;
+using CVP.Data.Repository.Interfaces;
+using CVP.Data.Uow;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -32,6 +37,11 @@ namespace CVP.UI
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddDbContext<CVProjectContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:CvpDB"], b => b.MigrationsAssembly("CVP.UI")));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddScoped<ISkillRepository, SkillRepository>();
+            services.AddScoped<ISkillBussines, SkillBussines>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

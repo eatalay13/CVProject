@@ -7,6 +7,6 @@ namespace CVP.Data.Repository.Interfaces
 {
     public interface ISkillRepository
     {
-        void AddSkill(AddSkillDto add);
+        int AddSkill(AddSkillDto add);
     }
 }

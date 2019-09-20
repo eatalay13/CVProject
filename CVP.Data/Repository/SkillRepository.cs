@@ -1,9 +1,6 @@
 ﻿using CVP.Data.Repository.Interfaces;
 using CVP.Data.Uow;
 using CVP.Domain.Dtos.Skill;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CVP.Data.Repository
 {
@@ -15,13 +12,15 @@ namespace CVP.Data.Repository
         {
             this._uow = uow;
         }
-        public void AddSkill(AddSkillDto add)
+        public int AddSkill(AddSkillDto add)
         {
             _uow.Skill.Insert(new Models.Skill
             {
                 Name = add.Name,
                 Score = add.Score
             });
+
+            return _uow.SaveChanges();
         }
     }
 }
