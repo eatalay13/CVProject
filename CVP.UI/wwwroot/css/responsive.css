@@ -1,0 +1,1394 @@
+/* -------------------------------------------------
+  Large Screen. 
+---------------------------------------------------*/
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .modal-dialog {
+        margin: 0 auto;
+        width: 850px;
+    }
+    .modal {
+        height: 800px;
+        top: 50%;
+    }
+}
+/* -------------------------------------------------
+  Old Desktop
+---------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {
+        width: 100%;
+    }
+    .caracraft-header .navbar {
+        padding: 30px 0 0;
+    }
+    .caracraft-header .top-nav-collapse {
+        padding: 10px 0;
+    }
+    .default-header .header-left {
+        float: left;
+        padding: 20px 15px 20px 35px;
+    }
+    .page-default .about-section {
+        padding: 120px 0 80px;
+    }
+    .caracraft-single-slider {
+        padding: 200px 0;
+    }
+    .single-slide-content h1 {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 0px;
+    }
+    .area-title h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+        line-height: 1.8;
+    }
+    h1,
+    .skill-content-section .area-title h1 {
+        font-size: 31px;
+        margin-bottom: 0px;
+        line-height: 1.4;
+        letter-spacing: 2px;
+    }
+    .page-default h1 {
+        font-size: 35px;
+    }
+    .layout-makeup .single-price h3,
+    .layout-makeup .single-service h3 {
+        font-size: 21px;
+    }
+    .layout-yoga .post-content h3 a {
+        letter-spacing: 0.6px;
+    }
+    .page-default .single-slide-content p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        letter-spacing: 1.5px;
+    }
+    .area-title p {
+        font-size: 17px;
+    }
+    .page-default .area-title p {
+        font-size: 16px;
+    }
+    .scroll-bottom-btn {
+        left: 35px;
+    }
+    .address-info td {
+        padding: 2px 0px;
+    }
+    .social-bookmark-section {
+        margin-top: 15px;
+    }
+    .section-bg-regular {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 58%, #f9f9f9 41%) repeat scroll 0 0;
+    }
+    .content-area .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #f8f8f9 58%, #fff 41%) repeat scroll 0 0;
+    }
+    .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #f8f8f9 51%, #fff 41%) repeat scroll 0 0;
+    }
+    .layout-dark .section-bg-regular {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #292b31 58%, #2e3037 41%) repeat scroll 0 0;
+    }
+    .layout-dark .content-area .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #2e3037 58%, #292b31 41%) repeat scroll 0 0;
+    }
+    .layout-dark .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #2e3037 51%, #292b31 41%) repeat scroll 0 0;
+    }
+    .page-default .about-section {
+        margin-top: -100px;
+        padding: 120 0 80px;
+    }
+    .about-section {
+        margin-top: -50px;
+        padding: 160px 0;
+    }
+    .skill-content-section {
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    .skill-content-section .area-title {
+        margin-bottom: 60px;
+    }
+    .skill-section {
+        padding: 100px 0;
+    }
+    .skill-section .gallery-box {
+        margin-top: 0;
+    }
+    .section-gallery-content h1 {
+        margin: -17px 0 0;
+        top: 30px;
+    }
+    .service-section {
+        padding: 100px 0 140px;
+    }
+    .single-service h3,
+    .price-box-inner h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .parallax {
+        padding: 100px 0;
+    }
+    .service-slider .slick-prev,
+    .service-slider .slick-next {
+        bottom: -95px;
+    }
+    .portfolio-section {
+        padding: 100px 0;
+    }
+    .portfolio-filter li {
+        margin-left: 20px;
+    }
+    .size img {
+        width: 310px;
+    }
+    .price-box-inner {
+        padding: 32px;
+    }
+    .experience-section {
+        padding: 100px 0;
+    }
+    .testimonial-area-wrapper {
+        padding: 100px 350px 150px 100px;
+    }
+    .brand-logo-wrapper > p::before {
+        right: calc(100% + 55px);
+        width: 100px;
+    }
+    .blog-section {
+        padding: 150px 0;
+    }
+    .post-content {
+        left: 15px;
+        padding: 35px;
+        width: calc(100% - 30px);
+    }
+    .post-content > h3 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .testimonial-section {
+        padding: 100px 0px 165px;
+    }
+    .contact-section {
+        padding: 100px 0;
+    }
+    .blog-section {
+        padding: 100px 0 140px;
+    }
+    .footer-info p {
+        padding-left: 50px;
+    }
+    .single-post > img {
+        width: 100%;
+    }
+    .blog-post-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .post-content-wrapper {
+        margin-top: 50px;
+    }
+    .post-content p {
+        font-size: 14px;
+    }
+    .author-area {
+        padding: 30px;
+    }
+    .input-field input {
+        padding: 0 15px;
+    }
+    .my-comment-box textarea {
+        padding: 20px 15px;
+    }
+    .breadcrumb-area {
+        padding: 140px 0 80px;
+    }
+    .cara-standard-section.single-bolg-post {
+        padding: 100px 0 120px;
+    }
+    /*-------------------------*/
+}
+/* -------------------------------------------------
+  Tablet Screen 
+---------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .section-bg-regular {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 50%, #f9f9f9 41%) repeat scroll 0 0;
+    }
+    .layout-dark .section-bg-regular {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #292b31 50%, #2e3037 41%) repeat scroll 0 0;
+    }
+    .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #f8f8f9 50%, #fff 41%) repeat scroll 0 0;
+    }
+    .layout-dark .content-area .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #2e3037 50%, #292b31 41%) repeat scroll 0 0;
+    }
+    .portfolio-column-count-3 .portfolio-item {
+        width: 50%;
+    }
+    .caracraft-header .navbar {
+        padding: 20px 0 0;
+    }
+    .menu-toggle-btn {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 27px;
+    }
+    .navbar-header .navbar-brand img {
+        width: 100px;
+    }
+    .nav.navbar-nav.hover-style-one {
+        margin-right: 50px;
+    }
+    .caracraft-header .navbar-nav > li {
+        margin-left: 20px;
+    }
+    .caracraft-header .top-nav-collapse {
+        padding: 10px 0;
+    }
+    .caracraft-single-slider,
+    .slider-style-minimal .caracraft-single-slider {
+        padding: 200px 0;
+    }
+    /*--- Default header ---*/
+    
+    .default-header {
+        margin-top: 80px;
+    }
+    .default-header .header-left {
+        float: left;
+        padding: 10px 0px 40px 15px;
+    }
+    .single-slide-content h1 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 0px;
+        letter-spacing: 3px;
+    }
+    .about-block-text a small {
+        font-size: 25px;
+    }
+    .page-default .layout-makeup .single-slide-content h1 {
+        font-size: 36px;
+    }
+    .page-default .layout-yoga .area-title h1 {
+        font-weight: bold;
+    }
+    .single-slide-content p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .page-default .single-slide-content p {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+    }
+    .address-info td {
+        padding: 2px 0px;
+    }
+    .social-bookmark-section {
+        margin-top: 15px;
+        float: left;
+    }
+    .scroll-bottom-btn {
+        bottom: -10px;
+        left: 15px;
+    }
+    .about-detail .header-right {
+        float: left;
+        margin-bottom: 40px;
+    }
+    .about-section {
+        padding: 180px 0 70px;
+    }
+    .width-50 {
+        float: left;
+        width: 100%;
+    }
+    .signature {
+        display: none;
+    }
+    .download-btn a {
+        display: none;
+    }
+    .about-block-text {
+        margin-bottom: 20px;
+    }
+    .section-gallery-content h1 {
+        font-size: 64px;
+        margin: 0 0 -15px;
+        top: 0;
+    }
+    .layout-yoga .post-content > h3 {
+        font-size: 21px;
+    }
+    .about-information-area {
+        margin-bottom: 0px;
+    }
+    .layout-yoga .video-init-btn {
+        top: 195px;
+    }
+    .gallery-popup img,
+    .single-video-slide > img {
+        height: 530px;
+    }
+    .skill-section {
+        padding: 60px 0;
+    }
+    .page-default .skill-content-section {
+        padding-left: 0px;
+    }
+    .area-title h1 {
+        font-size: 26px;
+        line-height: 1.6;
+    }
+    .area-title {
+        margin-bottom: 0px;
+        text-align: left;
+    }
+    .skill-content-section {
+        margin-top: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .progress-bar-area.text-right {
+        text-align: left;
+    }
+    .single-bar .progress-bar {
+        float: left;
+    }
+    .service-section {
+        padding: 95px 0 170px;
+    }
+    .single-price h3,
+    .single-service h3 {
+        font-weight: 300;
+    }
+    .layout-makeup .single-price h3,
+    .layout-makeup .single-service h3 {
+        font-size: 21px;
+    }
+    .parallax {
+        padding: 95px 0;
+    }
+    .skill-content-section .area-title h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .service-section .area-title {
+        text-align: left;
+    }
+    .area-title.service-heading {
+        margin-bottom: 0;
+    }
+    .area-title.service-heading h1 {
+        margin-bottom: 15px;
+    }
+    .portfolio-section {
+        padding: 60px 0;
+    }
+    .portfolio-filter-wrap {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .portfolio-section .area-title {
+        margin-bottom: 0;
+    }
+    .blog-portfolio-content {
+        padding-bottom: 0px;
+    }
+    .load-more {
+        margin-top: 30px;
+    }
+    .experience-wrapper .width-50 {
+        width: 50%;
+    }
+    .experience-section {
+        padding: 60px 0;
+    }
+    .hire-btn {
+        margin-top: 60px;
+    }
+    .portfolio-filter-wrap .text-right {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .testimonial-area-wrapper {
+        background: rgba(0, 0, 0, 0) url("../img/bg/1.jpg") repeat scroll 0 0 / cover;
+        padding: 60px 100px 120px 30px;
+    }
+    .testimonial-section .area-title.mb-80 {
+        margin-bottom: 0;
+    }
+    .testimonial-section .area-title.text-right.mb-80 {
+        margin-bottom: 50px;
+        text-align: left;
+        width: 80%;
+    }
+    .testimonial-section,
+    .pricing-section {
+        padding: 60px 0 170px;
+    }
+    .testimonial-area-wrapper p {
+        width: 90%;
+    }
+    .brand-logo-title {
+        display: none;
+    }
+    .blog-section {
+        padding: 60px 0 170px;
+    }
+    .blog-section .area-title.text-right.mb-80 {
+        margin-bottom: 50px;
+        text-align: left;
+        width: 80%;
+    }
+    .blog-section .area-title.mb-80:not(.text-right) {
+        margin: 0;
+    }
+    .contact-section {
+        padding: 60px 0;
+    }
+    .contact-section .address-info {
+        margin-bottom: 60px;
+    }
+    .footer-info p {
+        padding-left: 12px;
+        margin-top: 22px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .breadcrumb-area {
+        padding: 140px 0 80px;
+    }
+    .cara-standard-section.single-bolg-post {
+        padding: 100px 0;
+    }
+    .blog-post-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .post-meta span {
+        margin-right: 5px;
+    }
+    .share-wrapper li {
+        margin-left: 10px;
+    }
+    .post-content > h3 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .post-content-wrapper {
+        margin-top: 50px;
+    }
+    .comment-section-title {
+        margin-bottom: 50px;
+    }
+    .author-area {
+        padding: 30px 15px 5px;
+    }
+    .widget-subscribe-form .button {
+        padding: 0;
+    }
+    .widget-subscribe-form > input {
+        padding: 0;
+        text-align: center;
+    }
+    .comment-head > p {
+        display: block;
+        margin: 2px 0 0;
+        padding-left: 0;
+    }
+    .theme-comment-section .media-replay .media {
+        padding-left: 0;
+    }
+    .single-instra-image {
+        float: left;
+        width: 33.33%;
+    }
+    .input-field {
+        float: left;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .input-field:last-child {
+        margin: 0;
+    }
+    .search-form input {
+        padding: 0 20px;
+    }
+    .section-gallery-content {
+        margin-top: 70px;
+    }
+    /*--- portfolio & ABout details --*/
+    
+    .portfolio-details {
+        margin: 80px 0px;
+    }
+    .portfolio-details .portfolio-image {
+        margin-bottom: 20px;
+        float: left;
+    }
+}
+@media (max-width: 991px) {
+    .social-icons-list {
+        text-align: center;
+    }
+    .social-icons-list li {
+        float: none;
+        display: inline-block;
+    }
+}
+/* -------------------------------------------------
+  Small Mobile
+---------------------------------------------------*/
+
+@media (max-width: 767px) {
+    p {
+        font-size: 14px;
+    }
+    th {
+        width: 110px;
+    }
+    .page-default th {
+        width: 102px;
+        font-size: 13px;
+    }
+    .page-default .address-info td {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+    .page-default p {
+        font-size: 13px;
+    }
+    .address-info td {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+    }
+    .hire-btn {
+        margin-top: 20px;
+    }
+    .page-default .sc-button-wrapper {
+        margin-bottom: -45px;
+    }
+    .service-slider .slick-prev,
+    .service-slider .slick-next,
+    .brand-logo-slider .slick-prev,
+    .brand-logo-slider .slick-next {
+        bottom: -106px;
+    }
+    .page-default .service-section .service-slider .slick-prev,
+    .page-default .service-section .service-slider .slick-next {
+        bottom: -80px;
+    }
+    .page-default .layout-yoga .service-section .service-slider .slick-prev,
+    .page-default .layout-yoga .service-section .service-slider .slick-next {
+        bottom: -95px;
+    }
+    .caracraft-bw-header {
+        background-size: 198%;
+        background-position: inherit;
+    }
+    .caracraft-dentist-header {
+        background-position: inherit;
+    }
+    .nav.navbar-nav.hover-style-one {
+        opacity: 1;
+        transition: all 0.5s ease 0s;
+        visibility: visible;
+    }
+    .caracraft-header .top-nav-collapse {
+        padding: 5px 0;
+    }
+    .caracraft-header .navbar {
+        padding: 20px 0;
+    }
+    .caracraft-header .top-nav-collapse {
+        padding: 5px 0;
+    }
+    .main-menu.main-menu-wrapper a {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .slider-area {
+        margin-bottom: 180px;
+    }
+    .default-header .header-left {
+        padding: 20px 16px 0px;
+        margin-bottom: 100px;
+    }
+    .default-header .header-right {
+        padding: 25px;
+    }
+    .single-slide-content p strong {
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .social-bookmark-section {
+        margin-top: 30px;
+        float: left;
+    }
+    .scroll-bottom-btn {
+        position: relative;
+        left: 16px;
+        bottom: 180px;
+    }
+    .width-50 {
+        float: left;
+        width: 100%;
+    }
+    .single-slide-content h1 {
+        font-size: 26px;
+        line-height: 1.6;
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+    }
+    .page-default .single-slide-content h1 {
+        font-size: 30px;
+        line-height: 1.6;
+        letter-spacing: 3px;
+    }
+    .page-default .layout-makeup .single-slide-content h1 {
+        font-size: 31px;
+    }
+    .page-default .layout-yoga .single-slide-content h1 {
+        font-size: 25px;
+        line-height: 1.98;
+        font-weight: bold;
+    }
+    .layout-yoga h3,
+    .layout-yoga h2 {
+        font-weight: inherit;
+    }
+    .caracraft-single-slider,
+    .slider-style-minimal .caracraft-single-slider {
+        padding: 145px 0;
+    }
+    .single-slide-content p,
+    .page-default .single-slide-content p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+    .layout-dark .section-bg-regular {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #292b31 50%, #2e3037 41%) repeat scroll 0 0;
+    }
+    .layout-dark .section-bg-revarse {
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #2e3037 50%, #292b31 41%) repeat scroll 0 0;
+    }
+    /*page section*/
+    
+    .gallery-slider .slick-prev,
+    .gallery-slider .slick-next {
+        bottom: -117px;
+    }
+    .gallery-slider .slick-next {
+        right: -20px;
+    }
+    .gallery-slider .slick-prev {
+        right: 35px;
+    }
+    .about-section {
+        padding: 160px 0 56px;
+        margin-top: -230px;
+    }
+    .page-default .about-section {
+        margin-top: -105px;
+    }
+    .about-block-text {
+        margin-bottom: 50px;
+        padding-right: 0;
+    }
+    .pagingInfo {
+        margin-top: 54px;
+    }
+    .section-gallery-content h1 {
+        font-size: 50px;
+        margin: 0;
+        top: 10px;
+    }
+    .gallery-box {
+        border: 20px solid #fff;
+    }
+    .layout-dark .gallery-box {
+        border-width: 20px;
+    }
+    .layout-dark .pagingInfo {
+        margin-top: 50px;
+    }
+    .layout-dental .skill-content-section,
+    .layout-yoga .skill-content-section,
+    .layout-makeup .skill-content-section {
+        padding-left: 0px;
+    }
+    .skill-content-section {
+        margin-top: 0px;
+        padding-left: 0;
+    }
+    .progress-bar-area.text-right {
+        text-align: left;
+    }
+    .single-bar .progress-bar {
+        float: left;
+    }
+    .skill-content-section .area-title h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+        letter-spacing: 2px;
+    }
+    .skill-content-section .area-title {
+        text-align: left;
+    }
+    .video-init-btn {
+        bottom: 15px;
+        position: absolute;
+        right: 15px;
+    }
+    .layout-yoga .video-init-btn {
+        left: 33px;
+        top: 195px;
+    }
+    .modal-dialog {
+        width: 90%;
+        margin-top: 65px;
+    }
+    .video-init-btn a img {
+        margin-left: 3px;
+        margin-top: 9px;
+        margin-right: 10px;
+        margin-bottom: 12px;
+        width: 22px;
+    }
+    .layout-minimal .video-init-btn.center .video__play {
+        margin-bottom: 5px;
+        margin-left: 40px;
+    }
+    .layout-minimal .video-init-btn a img {
+        margin-left: 40px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .layout-yoga .popup-video a {
+        left: 25%;
+        bottom: 35px;
+    }
+    .layout-dental .video-init-btn a img {
+        width: 35px;
+    }
+    .page-default .layout-makeup .popup-video p,
+    .page-default .layout-dental .popup-video p {
+        top: -25px;
+        right: 5%;
+    }
+    .portfolio-column-count-2 .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-column-count-3 .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-column-count-4 .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-column-count-5 .portfolio-item {
+        width: 100%;
+    }
+    .area-title h1 {
+        font-size: 21px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+    .page-default .area-title h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .page-default .layout-yoga .area-title h1 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .skill-section {
+        padding: 60px 0 70px;
+    }
+    .video-init-btn a {
+        font-size: 10px;
+    }
+    .skill-content-section .area-title h1 {
+        line-height: 2em;
+    }
+    .skill-content-section .area-title {
+        margin-bottom: 50px;
+    }
+    .service-section {
+        padding: 60px 0 164px;
+    }
+    .page-default .service-section {
+        padding: 60px 0 140px;
+    }
+    .parallax {
+        padding: 60px 0;
+    }
+    .parallax .alt-result-item,
+    .parallax .alt-price-item {
+        float: none;
+        margin: 40px 0px;
+    }
+    .parallax img {
+        width: 50px;
+    }
+    .area-title.text-right.mb-80 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .area-title.service-heading.mb-80 {
+        margin-bottom: 0;
+    }
+    .area-title p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .page-default .area-title p {
+        font-size: 15px;
+    }
+    .portfolio-section {
+        padding: 60px 0 53px;
+    }
+    .load-more {
+        margin-top: 20px;
+    }
+    .portfolio-filter-wrap.text-right {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        text-align: left;
+    }
+    .portfolio-section .area-title.mb-90 {
+        margin-bottom: 0px;
+    }
+    .portfolio-filter li {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .experience-section {
+        padding: 60px 0 53px;
+    }
+    .area-title.mb-80 {
+        margin-bottom: 0px;
+    }
+    .single-description-conent {
+        padding: 35px 15px 35px 20px;
+    }
+    .single-experience {
+        position: relative;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .single-experience:before {
+        content: '';
+        position: absolute;
+        top: calc(100% + -1px);
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid #fff;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .single-duration-conent > h1 {
+        font-size: 30px;
+    }
+    .experience-wrapper .width-50.white-bg {
+        margin-bottom: 30px;
+    }
+    .layout-dark .experience-wrapper .width-50.white-bg {
+        background-color: initial;
+        margin-bottom: 0px;
+    }
+    .single-duration-conent {
+        background-color: initial;
+        height: auto;
+        min-height: 60px;
+        padding: 50px 0;
+        margin-bottom: 30px;
+        border: 20px solid #ffffff;
+    }
+    .layout-dark .single-duration-conent {
+        background: #242424 none repeat scroll 0 0;
+    }
+    .layout-dark .single-duration-conent {
+        border-color: #32343c;
+        background-color: #292b31;
+    }
+    .layout-dark .single-experience:before {
+        border-top-color: #32343c;
+    }
+    /*border-top: 15px solid #f8f8f9;*/
+    
+    .hire-btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .testimonial-section {
+        padding: 60px 0 164px;
+    }
+    .brand-logo-title {
+        display: none;
+    }
+    .single-testimonial img {
+        display: inline-block;
+        text-align: center;
+    }
+    .layout-makeup .testimonial-area-wrapper .slick-next,
+    .layout-yoga .testimonial-area-wrapper .slick-next {
+        left: 155px;
+    }
+    .client-name {
+        display: block;
+        margin-top: 10px;
+    }
+    .blog-section {
+        padding: 60px 0 120px;
+    }
+    .blog-portfolio-content {
+        padding-bottom: 0;
+    }
+    .post-content {
+        left: 15px;
+        margin-top: -70px;
+        width: calc(100% - 30px);
+        padding: 30px 25px;
+    }
+    .post-content > h3,
+    .layout-yoga .post-content > h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .single-blog-post {
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .layout-makeup .post-content > h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+    .contact-section {
+        padding: 60px 0 50px;
+    }
+    .contact-section .address-info {
+        margin-bottom: 50px;
+    }
+    .info-details p,
+    .info-details a {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .page-default .info-details p,
+    .info-details a {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .info-details {
+        float: left;
+        margin-top: 10px;
+        padding-left: 20px;
+        width: calc(100% - 45px);
+    }
+    .layout-bw .contact-section {
+        background-position: inherit;
+    }
+    .footer-info > p {
+        padding: 0;
+        width: 100%;
+    }
+    .footer-info {
+        text-align: center;
+        line-height: 40px;
+    }
+    .footer-info img {
+        display: block;
+        text-align: center;
+    }
+    .footer-info > a {
+        display: inline-block;
+    }
+    .back-to-top.text-right {
+        margin-top: 0px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .to-top-btn {
+        background: #333 none repeat scroll 0 0;
+        color: #fff;
+        display: block;
+        height: 45px;
+        line-height: 45px;
+        margin: auto;
+        text-align: center;
+        width: 45px;
+        float: none;
+    }
+    .back-to-top p {
+        margin: 15px 0 0;
+        float: none;
+        display: block;
+    }
+    .pricing-section {
+        padding: 60px 0px 164px;
+    }
+    .single-service,
+    .single-price {
+        padding: 20px;
+    }
+    .service-box-inner,
+    .price-box-inner {
+        padding: 35px 20px;
+    }
+    .layout-makeup .single-price h3,
+    .layout-makeup .single-service h3 {
+        font-size: 18px;
+    }
+    .layout-dental .service-box-inner {
+        padding: 26px 10px;
+    }
+    .layout-makeup .service-box-inner .hover,
+    .layout-yoga .service-box-inner {
+        padding: 26px 10px;
+    }
+    .page-default .single-service {
+        padding: 20px;
+    }
+    .signature {
+        display: none;
+        margin-bottom: 50px;
+    }
+    .download-btn a.button {
+        display: none;
+    }
+    .about-block-text {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .section-gallery-content {
+        margin-top: 60px;
+    }
+    .footer-info a img {
+        margin-bottom: 0px;
+        margin-top: 7px;
+    }
+    .breadcrumb-area {
+        padding: 150px 0 80px;
+    }
+    .page-cat {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .blog-post-title {
+        font-size: 21px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .post-meta span {
+        margin-right: 6px;
+    }
+    .post-content-wrapper > h4 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .post-content-wrapper ul li {
+        color: #737272;
+        font-size: 15px;
+        line-height: 26px;
+        padding-left: 35px;
+    }
+    .single-blog-post-area blockquote {
+        background: #f3f3f3 none repeat scroll 0 0;
+        border-left: 2px solid #cecece;
+        font-size: 14px;
+        margin: 0 0 30px;
+        padding: 20px;
+    }
+    .post-content-wrapper blockquote p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .post-footer {
+        padding: 40px 20px;
+    }
+    .tag-wrapper a {
+        float: left;
+        font-size: 11px;
+        margin-right: 5px;
+        padding: 0 10px;
+    }
+    .tag-wrapper > a:last-child {
+        margin: 0;
+    }
+    .share-wrapper {
+        display: inline-block;
+        float: left;
+        margin-top: 20px;
+    }
+    .share-wrapper li {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    .post-footer {
+        padding: 30px 20px;
+    }
+    .author-desc {
+        float: left;
+        padding-left: 0;
+        width: 100%;
+    }
+    .author-img {
+        margin-bottom: 30px;
+    }
+    .media-left,
+    .media > .pull-left {
+        display: block;
+        margin-bottom: 30px;
+        padding-right: 0;
+        text-align: left;
+    }
+    .comment-head > p {
+        margin: 10px 0 0;
+        padding-left: 0;
+    }
+    .theme-comment-section .media-replay .media {
+        padding-left: 0;
+    }
+    input[type="checkbox"] {
+        margin: 0 5px 0 0;
+    }
+    .theme-comment-section {
+        padding: 30px 20px 50px;
+    }
+    .theme-comment-section label {
+        font-size: 14px;
+    }
+    .page-default .theme-comment-section label {
+        font-size: 12px;
+    }
+    .input-field {
+        float: left;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .input-field:last-child {
+        margin: 0;
+    }
+    .input-field input {
+        padding: 0 20px;
+    }
+    .my-comment-box textarea {
+        padding: 20px;
+    }
+    .search-widget {
+        margin-top: 40px;
+    }
+    .cara-standard-section.single-bolg-post {
+        padding: 70px 0;
+    }
+    .blog-section .slick-prev,
+    .blog-section .slick-next {
+        bottom: -70px;
+    }
+    .instagram-widget h3 {
+        font-size: 18px;
+        padding: 20px;
+    }
+    .single-instra-image {
+        float: left;
+        width: 50%;
+    }
+    .single-widget:last-child {
+        margin: 0;
+    }
+    .contact-form-wrapper {
+        padding: 20px;
+    }
+    .menu-container {
+        margin-top: 150px;
+    }
+    .testimonial-area-wrapper {
+        background-image: none;
+        background-color: #fff;
+        margin-bottom: 30px;
+        padding: 35px 20px;
+        text-align: center;
+    }
+    .minimal-testimonial .testimonial-area-wrapper {
+        background-image: none;
+        background-color: #fff;
+    }
+    .minimal-testimonial .testimonial-area-wrapper {
+        background-image: none;
+        background-color: #fff;
+    }
+    .dark-testimonial .testimonial-area-wrapper {
+        background-image: none;
+        background-color: #32343c;
+    }
+    .testimonial-slider {
+        padding-bottom: 80px;
+    }
+    .testimonial-area-wrapper .slick-prev,
+    .testimonial-area-wrapper .slick-next {
+        bottom: 0;
+    }
+    .testimonial-slider .slick-prev,
+    .layout-minimal .testimonial-slider .slick-prev {
+        left: calc(50% - 27px);
+        transform: translateX(-50%);
+    }
+    .testimonial-slider .slick-next,
+    .layout-minimal .testimonial-slider .slick-next {
+        left: calc(50% - -27px);
+        transform: translateX(-50%);
+    }
+    .footer-area {
+        padding: 40px 0 50px;
+    }
+    .info-block-text {
+        margin-bottom: 47px;
+    }
+    /*blog page*/
+    
+    .single-post {
+        padding: 20px;
+    }
+    .post-content-wrapper {
+        padding: 0 0;
+        margin-top: 40px;
+    }
+    .author-area {
+        padding: 30px;
+    }
+    .post-header {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .media-list li:first-child {
+        padding-top: 0;
+    }
+    .comment-section-title {
+        margin-bottom: 30px;
+    }
+    /*------ about details---------------*/
+    
+    .layout-makeup .about-detail .details h1 {
+        font-size: 18px;
+        font-weight: inherit;
+    }
+    .layout-yoga .about-detail .details h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .header-left {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about-detail p {
+        padding-right: 0px;
+    }
+    .about-detail .details {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .about-detail .header-right {
+        margin-bottom: 40px;
+    }
+    .layout-minimal .about-detail .breadcrumb-area,
+    .layout-dark .about-detail .breadcrumb-area,
+    .layout-dental .about-detail .breadcrumb-area {
+        padding: 110px 0px;
+    }
+    .layout-bw .about-detail .breadcrumb-area {
+        padding: 80px 0;
+    }
+    /*------ Portfolio details---------------*/
+    
+    .portfolio-details {
+        margin: 40px 0px;
+    }
+    .portfolio-details h2 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+    .portfolio-image {
+        margin-bottom: 20px;
+        float: left;
+    }
+    #caracraft-testimonial-id .portfolio-item-content img {
+        width: 320px;
+        padding: 20px 20px;
+    }
+}
+@media (min-width: 992px) {
+    .push-half {
+        position: relative;
+        left: 50%;
+    }
+    .pull-half {
+        position: relative;
+        right: 50%;
+    }
+}
+/* -------------------------------------------------
+  Large Mobile :480px. 
+---------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .tag-wrapper a {
+        font-size: 14px;
+        margin-right: 5px;
+        padding: 0 15px;
+    }
+}
+@media (min-width: 768px) {
+    .experience-wrapper .push-half {
+        position: relative;
+        left: 50%;
+    }
+    .experience-wrapper .pull-half {
+        position: relative;
+        right: 50%;
+    }
+}
+@media (max-width: 533px) {
+    .portfolio-filter li {
+        display: block;
+        margin-left: 0;
+    }
+}
