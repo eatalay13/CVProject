@@ -35,5 +35,17 @@ namespace CVP.Data.Repository
                 Score = s.Score
             }).ToList();
         }
+
+        public int UpdateSkill(UpdateSkillDto update)
+        {
+            _uow.Skill.Update(new Skill
+            {
+                Id = update.Id,
+                Name = update.Name,
+                Score = update.Score
+            });
+
+            return _uow.SaveChanges();
+        }
     }
 }

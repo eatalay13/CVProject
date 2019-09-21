@@ -11,5 +11,6 @@ namespace CVP.Business.Interfaces
     {
         AddSkillResponse AddSkill(AddSkillRequest request);
         ListSkillResponse GetSkillList();
+        UpdateSkillResponse UpdateSkill(UpdateSkillRequest request);
     }
 }

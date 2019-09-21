@@ -26,6 +26,12 @@ namespace CVP.UI.Controllers
             return response;
         }
 
+        [HttpPost]
+        public ActionResult<UpdateSkillResponse> UpdateSkill([FromBody]UpdateSkillRequest request)
+        {
+            return _skillBussines.UpdateSkill(request);
+        }
+
         [HttpGet]
         public ActionResult<ListSkillResponse> SkillList()
         {

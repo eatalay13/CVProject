@@ -36,5 +36,17 @@ namespace CVP.Business
 
             return response;
         }
+
+        public UpdateSkillResponse UpdateSkill(UpdateSkillRequest request)
+        {
+            _skillRepository.UpdateSkill(new UpdateSkillDto
+            {
+                Id = request.Id,
+                Name = request.Name,
+                Score = request.Score
+            });
+
+            return new UpdateSkillResponse();
+        }
     }
 }

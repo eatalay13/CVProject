@@ -10,5 +10,6 @@ namespace CVP.Data.Repository.Interfaces
     {
         int AddSkill(AddSkillDto add);
         List<ListSkillDto> GetSkillList();
+        int UpdateSkill(UpdateSkillDto update);
     }
 }
