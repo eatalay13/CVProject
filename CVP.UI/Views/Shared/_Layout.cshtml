@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CVP.UI</title>
+    <title>@ViewData["Title"] - Yazılım Danışmanlığı</title>
     <meta name="description" content="Emrah Atalay | Yazılım Danışmanlığı">
 
     <link rel="icon" href="img/icons/favicon.ico">
@@ -41,8 +41,13 @@
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
-
-    @RenderBody()
+    <!-- Wrapper start -->
+    <div class="wrapper layout-minimal">
+        <partial name="_header" />
+        <partial name="_menu" />
+            @RenderBody()
+        <partial name="_footer" />
+    </div>
 
     <!-- All javaScript Files -->
     <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
