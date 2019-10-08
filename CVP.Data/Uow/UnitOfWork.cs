@@ -4,6 +4,7 @@ using CVP.Data.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using CVP.Domain.Models.Auth;
 
 namespace CVP.Data.Uow
 {
@@ -11,8 +12,10 @@ namespace CVP.Data.Uow
     {
         private readonly CVProjectContext _dbContext;
         private readonly Lazy<IRepository<Skill>> _skill;
+        private readonly Lazy<IRepository<User>> _user;
 
         public IRepository<Skill> Skill => _skill.Value;
+        public IRepository<User> User => _user.Value;
 
         public UnitOfWork(CVProjectContext context)
         {
@@ -24,6 +27,7 @@ namespace CVP.Data.Uow
             }
 
             _skill = CreateRepo<Skill>();
+            _user = CreateRepo<User>();
         }
 
         public void Dispose()

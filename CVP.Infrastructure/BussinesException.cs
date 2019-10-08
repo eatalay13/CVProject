@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CVP.Infrastructure
 {
-    public class BussinesException : Exception
+    public class BusinessException : Exception
     {
-        public BussinesException(string message) : base(message)
+        public BusinessException(string message) : base(message)
         {
 
         }

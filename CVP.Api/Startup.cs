@@ -1,22 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CVP.Business;
+using CVP.Business.Interfaces;
 using CVP.Data;
+using CVP.Data.Repository;
+using CVP.Data.Repository.Interfaces;
+using CVP.Data.Uow;
 using CVP.Domain.Models.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace CVP.Api
 {
@@ -34,7 +32,7 @@ namespace CVP.Api
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddDbContext<CVProjectContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:KopGitDB"], b => b.MigrationsAssembly("KopGit.WebApi")));
+            services.AddDbContext<CVProjectContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:CvpDB"], b => b.MigrationsAssembly("CVP.Api")));
 
             IdentityBuilder builder = services.AddIdentityCore<User>(opt =>
             {
@@ -69,6 +67,10 @@ namespace CVP.Api
                     ValidateAudience = false
                 };
             });
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAuthBusiness, AuthBusiness>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
