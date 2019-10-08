@@ -1,8 +1,5 @@
-﻿using CVP.Data.Models;
-using CVP.Domain.Dtos.Skill;
-using System;
+﻿using CVP.Domain.Dtos.Skill;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CVP.Data.Repository.Interfaces
 {

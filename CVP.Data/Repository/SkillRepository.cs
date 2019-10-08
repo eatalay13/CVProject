@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using CVP.Data.Models;
+using CVP.Domain.Models;
 using CVP.Data.Repository.Interfaces;
 using CVP.Data.Uow;
 using CVP.Domain.Dtos.Skill;

@@ -1,4 +1,4 @@
-﻿using CVP.Data.Models;
+﻿using CVP.Domain.Models;
 using CVP.Data.Repository.Interfaces;
 using System;
 using System.Collections.Generic;

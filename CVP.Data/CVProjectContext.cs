@@ -1,4 +1,4 @@
-﻿using CVP.Data.Models;
+﻿using CVP.Domain.Models;
 using CVP.Domain.Models.Auth;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
